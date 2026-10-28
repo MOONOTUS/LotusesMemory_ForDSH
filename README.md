@@ -19,7 +19,7 @@
 
 ```bash
 # 从 npm
-dsh plugin --profile web add @lotuseslunarland/lotuses-memory
+dsh plugin --profile web add @lotuseslunarland/dsh-lotuses-memory
 
 # 或从本地目录 / tgz
 cd ~/.dsh/profiles/web
@@ -31,7 +31,7 @@ pnpm add file:/path/to/Lotuses_Memory
 ```yaml
 - insert:
     - id: lotuses-memory
-      name: '@lotuseslunarland/lotuses-memory'
+      name: '@lotuseslunarland/dsh-lotuses-memory'
       config:
         memoryDir: '/path/to/Memory'
         sessionsDir: '/root/.dsh/sessions'   # 可选，默认 <DSH_HOME>/sessions

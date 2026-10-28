@@ -1,6 +1,6 @@
 {
-  "name": "@lotuseslunarland/lotuses-memory",
-  "version": "0.1.2",
+  "name": "@lotuseslunarland/dsh-lotuses-memory",
+  "version": "0.1.3",
   "description": "Lotuses'Memory — 跨会话长期记忆：按聊天对象自动把人物/群档案注入 systemPrompt，并提供 memory_note / memory_recall 工具",
   "type": "module",
   "main": "lib/index.js",
