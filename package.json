@@ -1,0 +1,29 @@
+{
+  "name": "dsh-lotuses-memory",
+  "version": "0.1.1",
+  "description": "Lotuses'Memory — 跨会话长期记忆：按聊天对象自动把人物/群档案注入 systemPrompt，并提供 memory_note / memory_recall 工具",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/core.js",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "memory",
+    "long-term-memory"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5",
+    "@deepseek-ai/dsh-system-prompt": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.2"
+  }
+}
